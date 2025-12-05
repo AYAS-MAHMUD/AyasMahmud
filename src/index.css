@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+@plugin "daisyui/theme"{
+  name : 'light';
+  default : true;
+  --color-primary : #a3e635;
+  --color-secondary : green;
+}
+
+a.active {
+  @apply text-lime-400 
+}
+body{
+  font-family: Arima;
+  scroll-behavior: smooth;
+ @apply bg-gray-900
+}
+/* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); */
