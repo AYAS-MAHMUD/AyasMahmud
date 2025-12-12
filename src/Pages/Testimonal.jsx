@@ -45,8 +45,8 @@ const Testimonal = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-          {testimonials.map((i) => (
-            <motion.div initial={{opacity : 0,x:60}} viewport={{ once: true }} whileInView={{opacity:1,x:0}} transition={{duration : 1}} class="bg-black p-8 text-white">
+          {testimonials.map((i,idx) => (
+            <motion.div initial={{opacity : 0,y:60}} viewport={{ once: true }} whileInView={{opacity:1,y:0}} transition={{duration : 1,delay :idx*0.5}} class="bg-black p-8 text-white">
               <p>
                 <FaQuoteLeft className="text-4xl mb-5" />
               </p>
