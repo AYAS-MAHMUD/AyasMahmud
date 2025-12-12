@@ -2,7 +2,7 @@ import React from "react";
 import { FaDownload } from "react-icons/fa";
 import { MdOutlineStreetview } from "react-icons/md";
 import { Link } from "react-router";
-import Resume_of_Mohammad_Ayas from '../assets/Mohammad Ayas Resume-2.pdf'
+import Resume_of_Mohammad_Ayas from '../assets/Resume_of_Mohammad_Ayas.pdf'
 // This component uses Tailwind CSS for styling. Make sure Tailwind is configured in your project.
 // Copy this file into your project (e.g. src/components/HeroWithBgShape.jsx) and import it where needed.
 import { motion } from 'framer-motion';
