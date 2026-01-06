@@ -10,26 +10,6 @@ import Contact from '../Pages/Contact';
 
 const Home = () => {
 
-useEffect(() => {
-  const lenis = new Lenis({
-    duration: 0.4,     
-    smooth: true,
-    smoothWheel: true,
-    wheelMultiplier: 2.5,  
-    easing: (t) => t      
-  });
-
-  function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-  }
-
-  requestAnimationFrame(raf);
-
-  return () => {
-    lenis.destroy();
-  };
-}, []);
 
 
   return (

@@ -29,10 +29,10 @@ const Aboutme = () => {
               <motion.h1  initial={{opacity : 0,x:50}} viewport={{ once: true }} whileInView={{opacity:1,x:0}} transition={{duration : 1}}  className="text-primary text-4xl md:text-6xl font-bold">
                 MOHAMMAD AYAS
               </motion.h1>
-               <span className="text-2xl">a Frontend developer</span>
+               <span className="text-2xl">a Full Stack developer</span>
             </h1>
             <motion.p  initial={{opacity : 0,x:-50}} viewport={{ once: true }} whileInView={{opacity:1,x:0}} transition={{duration : 1}}  className=" text-2xl md:text-4xl">
-              I'm a Frontend developer with a passion for building efficient,
+              I'm a Full Stack developer with a passion for building efficient,
               scalable, and user-friendly web applications. My journey started
               with a fascination for how things work behind the screen, and
               quickly evolved into a career focused on creating impactful

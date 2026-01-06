@@ -51,7 +51,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 py-10 md:py-40 text-center">
         <motion.div  className="inline-flex items-center gap-3 bg-white/6 border border-white/8 px-4 py-2 rounded-2xl backdrop-blur-sm text-sm mx-auto mb-6">
           <div className="status status-success animate-ping"></div>
-          <span>Build Better Software, Seamlessly Together</span>
+          <span>I Build System, Not Just Websites</span>
         </motion.div>
 
         <h1 className="text-[56px] sm:text-[72px] md:text-[88px] leading-[0.95] font-extrabold tracking-tight drop-shadow-[0_6px_24px_rgba(0,0,0,0.7)]">
@@ -63,8 +63,8 @@ export default function Hero() {
         </h1>
 
         <motion.p  initial={{opacity : 0,y:50}} animate={{opacity:1,y:0}} transition={{duration : 1}}  className="mt-6 max-w-2xl mx-auto text-gray-300 text-lg">
-          I'm a Fronted Developer who turns complex ideas into performant,
-          user-friendly web applications.
+          I'm a Full Stack Developer who turns complex ideas into performant,
+          focused on stability, scale and clean design.
         </motion.p>
 
         <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-4">

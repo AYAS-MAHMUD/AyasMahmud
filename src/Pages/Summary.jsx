@@ -83,7 +83,7 @@ const Summary = () => {
             </p>
           </motion.div>
           <div class="grid grid-cols-1 text-black md:grid-cols-2 gap-5">
-            <motion.div initial={{opacity : 0,x:-60}} viewport={{ once: true }} whileInView={{opacity:1,x:0}} transition={{duration : 1}} class=" bg-primary  rounded p-5">
+            <motion.div whileHover={{scale:0.96}} initial={{opacity : 0,x:-60}} viewport={{ once: true }} whileInView={{opacity:1,x:0}} transition={{duration : 1}} class=" bg-primary  rounded p-5">
               <h1 class="font-bold text-xl md:text-2xl mb-3">
                 Secondary School Certificate
               </h1>
@@ -91,7 +91,7 @@ const Summary = () => {
               <h2>Institute: Palong Model High School & Collage</h2>
               <h2>GPA: 5</h2>
             </motion.div>
-            <motion.div initial={{opacity : 0,x:60}} viewport={{ once: true }} whileInView={{opacity:1,x:0}} transition={{duration : 1}} class=" bg-primary rounded  p-5 ">
+            <motion.div whileHover={{scale:0.96}} initial={{opacity : 0,x:60}} viewport={{ once: true }} whileInView={{opacity:1,x:0}} transition={{duration : 1}} class=" bg-primary rounded  p-5 ">
               <h1 class="font-bold text-xl md:text-2xl mb-3">Diploma in Computer Science</h1>
               <h2>Department : CST</h2>
               <h2>Institute: Chattogram Polytechnic Institute</h2>
@@ -111,16 +111,16 @@ const Summary = () => {
             </p>
           </div>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <motion.button initial={{opacity : 0,x:-60}} viewport={{ once: true }} whileInView={{opacity:1,x:0}} transition={{duration : 1}} class="bg-primary px-5 py-3 text-xl md:text-2xl font-bold rounded">
+            <motion.button whileHover={{scale:0.96}} initial={{opacity : 0,x:-60}} viewport={{ once: true }} whileInView={{opacity:1,x:0}} transition={{duration : 1}} class="bg-primary px-5 py-3 text-xl md:text-2xl font-bold rounded">
               Bangla
             </motion.button>
-            <motion.button initial={{opacity : 0,y:-60}} viewport={{ once: true }} whileInView={{opacity:1,y:0}} transition={{duration : 1}} class="bg-[#272C27] text-white px-5 rounded py-3 text-xl md:text-2xl font-bold">
+            <motion.button whileHover={{scale:0.96}} initial={{opacity : 0,y:-60}} viewport={{ once: true }} whileInView={{opacity:1,y:0}} transition={{duration : 1}} class="bg-[#272C27] text-white px-5 rounded py-3 text-xl md:text-2xl font-bold">
               English
             </motion.button>
-            <motion.button initial={{opacity : 0,y:60}} viewport={{ once: true }} whileInView={{opacity:1,y:0}} transition={{duration : 1}} class="bg-primary px-5 py-3  text-xl rounded md:text-2xl font-bold">
+            <motion.button whileHover={{scale:0.96}} initial={{opacity : 0,y:60}} viewport={{ once: true }} whileInView={{opacity:1,y:0}} transition={{duration : 1}} class="bg-primary px-5 py-3  text-xl rounded md:text-2xl font-bold">
               German
             </motion.button>
-            <motion.button initial={{opacity : 0,x:60}} viewport={{ once: true }} whileInView={{opacity:1,x:0}} transition={{duration : 1}} class="bg-[#272C27] rounded text-white px-5 py-3  text-xl md:text-2xl font-bold">
+            <motion.button whileHover={{scale:0.96}} initial={{opacity : 0,x:60}} viewport={{ once: true }} whileInView={{opacity:1,x:0}} transition={{duration : 1}} class="bg-[#272C27] rounded text-white px-5 py-3  text-xl md:text-2xl font-bold">
               Hindi
             </motion.button>
           </div>

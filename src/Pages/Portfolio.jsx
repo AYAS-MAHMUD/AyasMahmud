@@ -11,20 +11,19 @@ const Portfolio = () => {
   const experiences = [
     {
       id: 1,
-      img: "https://i.ibb.co.com/XrV4kr8k/pexels-shkrabaanthony-5816283.jpg",
+      img: "https://i.ibb.co.com/VWhBSyzP/Screenshot-2026-01-06-at-5-01-57-PM.png",
       livelink : 'https://loanlink01.netlify.app',
       githublink : "https://github.com/AYAS-MAHMUD/LoanLink-UI"
     },
     {
       id: 2,
-      img: "https://i.ibb.co.com/bjFvgshQ/pexels-wayne-fotografias-1812121-9879938.jpg",
+      img: "https://i.ibb.co.com/VcjV5vNQ/Screenshot-2026-01-06-at-5-03-00-PM.png",
       livelink : 'https://herohome.netlify.app',
       githublink : "https://github.com/AYAS-MAHMUD/Ass-10-ui"
     },
     {
       id: 3,
-
-      img: "https://i.ibb.co.com/wZBQf9bL/pexels-lisa-kohnen-1084413-2204147.jpg",
+      img: "https://i.ibb.co.com/GQLCp39S/Screenshot-2026-01-06-at-5-04-45-PM.png",
       livelink : 'https://my-first-next-app-azure.vercel.app',
       githublink : "https://github.com/AYAS-MAHMUD/my-first-next-app"
     },
